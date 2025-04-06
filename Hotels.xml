@@ -15,7 +15,7 @@
   <Hotel Rating="4.5">
     <Name>Marriott</Name>
     <Phone>602-123-4567</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
+    <Address>
       <Number>123</Number>
       <Street>North St</Street>
       <City>Phoenix</City>
@@ -26,7 +26,6 @@
   <Hotel>
     <Name>Hilton</Name>
     <Phone>480-999-0000</Phone>
-    <Phone>877-888-9999</Phone>
     <Address>
       <Number>200</Number>
       <Street>South Ave</Street>
@@ -46,7 +45,7 @@
       <Zip>85201</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.7">
+  <Hotel>
     <Name>Sheraton</Name>
     <Phone>602-456-7890</Phone>
     <Address NearestAirport="Mesa Gateway">
@@ -57,7 +56,7 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="2.5">
     <Name>Motel 6</Name>
     <Phone>480-555-1212</Phone>
     <Address>
@@ -66,18 +65,6 @@
       <City>Chandler</City>
       <State>AZ</State>
       <Zip>85226</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.9">
-    <Name>JW Marriott</Name>
-    <Phone>602-123-9876</Phone>
-    <Phone>800-321-6543</Phone>
-    <Address NearestAirport="Phoenix Sky Harbor">
-      <Number>350</Number>
-      <Street>Luxury Blvd</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
     </Address>
   </Hotel>
   <Hotel>
@@ -91,7 +78,7 @@
       <Zip>85301</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="3.5">
+  <Hotel Rating="4.0">
     <Name>Holiday Inn</Name>
     <Phone>623-888-7777</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -102,7 +89,7 @@
       <Zip>85260</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.9">
     <Name>Ramada</Name>
     <Phone>480-777-6666</Phone>
     <Address>
@@ -111,6 +98,17 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85284</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Travelodge</Name>
+    <Phone>480-000-0000</Phone>
+    <Address>
+      <Number>101</Number>
+      <Street>Main Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
     </Address>
   </Hotel>
 </Hotels>

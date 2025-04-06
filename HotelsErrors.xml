@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotele> <!-- Error 1 -->
+
+<!--  Error 1: Root element  -->
+<Hotel>
+  
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -12,10 +15,10 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel>     <!-- Error 2-->
+
+  <Hotel>
     <Name>Hilton</Name>
     <Phone>480-999-0000</Phone>
-    <Phone>877-888-9999</Phone>
     <Address>
       <Number>200</Number>
       <Street>South Ave</Street>
@@ -24,9 +27,10 @@
       <Zip>85250</Zip>
     </Address>
   </Hotel>
+
   <Hotel Rating="3.8">
     <Name>Hyatt</Name>
-    <!-- Error 3-->
+    <!-- Missing Phone tag -->
     <Address>
       <Number>50</Number>
       <Street>Main St</Street>
@@ -35,6 +39,7 @@
       <Zip>85201</Zip>
     </Address>
   </Hotel>
+
   <Hotel Rating="4.7">
     <Name>Sheraton</Name>
     <Phone>602-456-7890</Phone>
@@ -43,11 +48,12 @@
       <Street>1st Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <!-- Error 4 -->
+      <!-- Missing </Address> -->
   </Hotel>
+
   <Hotel Rating="4.9">
     <Name>Doubletree</Name>
-    <Name>Marriott</Name> <!-- Error 5-->
+    <Name>Marriott</Name> <!-- :Only one  allowed -->
     <Phone>602-123-9876</Phone>
     <Address>
       <Number>350</Number>
@@ -57,4 +63,5 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
+
 </Hotel>
