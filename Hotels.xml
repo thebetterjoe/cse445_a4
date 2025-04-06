@@ -1,114 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Hotels>
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Habor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.5">
-    <Name>Marriott</Name>
-    <Phone>602-123-4567</Phone>
-    <Address>
-      <Number>123</Number>
-      <Street>North St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85001</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.1">
-    <Name>Hilton</Name>
-    <Phone>480-999-0000</Phone>
-    <Address>
-      <Number>200</Number>
-      <Street>South Ave</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85250</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="3.8">
-    <Name>Hyatt</Name>
-    <Phone>623-111-2222</Phone>
-    <Address>
-      <Number>50</Number>
-      <Street>Main St</Street>
-      <City>Mesa</City>
-      <State>AZ</State>
-      <Zip>85201</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.0">
-    <Name>Sheraton</Name>
-    <Phone>602-456-7890</Phone>
-    <Address NearestAirport="Mesa Gateway">
-      <Number>75</Number>
-      <Street>1st Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85282</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="2.5">
-    <Name>Motel 6</Name>
-    <Phone>480-555-1212</Phone>
-    <Address>
-      <Number>800</Number>
-      <Street>Budget Rd</Street>
-      <City>Chandler</City>
-      <State>AZ</State>
-      <Zip>85226</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="3.0">
-    <Name>Comfort Inn</Name>
-    <Phone>602-765-4321</Phone>
-    <Address>
-      <Number>90</Number>
-      <Street>Comfort St</Street>
-      <City>Glendale</City>
-      <State>AZ</State>
-      <Zip>85301</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.0">
-    <Name>Holiday Inn</Name>
-    <Phone>623-888-7777</Phone>
-    <Address NearestAirport="Scottsdale Airport">
-      <Number>66</Number>
-      <Street>Holiday Way</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85260</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="3.9">
-    <Name>Ramada</Name>
-    <Phone>480-777-6666</Phone>
-    <Address>
-      <Number>45</Number>
-      <Street>Inns Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85284</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="2.8">
-    <Name>Travelodge</Name>
-    <Phone>480-000-0000</Phone>
-    <Address>
-      <Number>101</Number>
-      <Street>Main Blvd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.5">
+        <Name>Hilton Phoenix Resort at the Peak</Name>
+        <Phone>602-997-2626</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>7677</Number>
+            <Street>N 16th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85020</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.0">
+        <Name>Marriott Phoenix Airport</Name>
+        <Phone>602-273-7778</Phone>
+        <Address>
+            <Number>1101</Number>
+            <Street>N 44th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.3">
+        <Name>Hyatt Regency Scottsdale</Name>
+        <Phone>480-444-1234</Phone>
+        <Phone>800-554-9288</Phone>
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>7500</Number>
+            <Street>E Doubletree Ranch Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.1">
+        <Name>Sheraton Grand Phoenix</Name>
+        <Phone>602-262-2500</Phone>
+        <Address>
+            <Number>340</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.6">
+        <Name>The Phoenician</Name>
+        <Phone>480-941-8200</Phone>
+        <Phone>800-888-8234</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>6000</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="3.9">
+        <Name>DoubleTree Suites by Hilton Phoenix</Name>
+        <Phone>602-225-0500</Phone>
+        <Address>
+            <Number>320</Number>
+            <Street>N 44th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.4">
+        <Name>Renaissance Phoenix Downtown</Name>
+        <Phone>602-333-0000</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>100</Number>
+            <Street>N 1st St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.2">
+        <Name>Embassy Suites by Hilton Scottsdale</Name>
+        <Phone>480-949-1414</Phone>
+        <Phone>800-362-2779</Phone>
+        <Address>
+            <Number>5001</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85250</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.0">
+        <Name>Crowne Plaza Phoenix Airport</Name>
+        <Phone>602-286-1100</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor">
+            <Number>4300</Number>
+            <Street>E Washington St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85034</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.3">
+        <Name>Fairmont Scottsdale Princess</Name>
+        <Phone>480-585-4848</Phone>
+        <Address>
+            <Number>7575</Number>
+            <Street>E Princess Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85255</Zip>
+        </Address>
+    </Hotel>
 </Hotels>
