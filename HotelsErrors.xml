@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel> <!-- ❌ Error 1: root element should be "Hotels" -->
+<Hotele> <!-- Error 1 -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -12,7 +12,7 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel> <!-- ❌ Error 2: missing required attribute Rating -->
+  <Hotel>     <!-- Error 2-->
     <Name>Hilton</Name>
     <Phone>480-999-0000</Phone>
     <Phone>877-888-9999</Phone>
@@ -26,7 +26,7 @@
   </Hotel>
   <Hotel Rating="3.8">
     <Name>Hyatt</Name>
-    <!-- ❌ Error 3: missing Phone element -->
+    <!-- Error 3-->
     <Address>
       <Number>50</Number>
       <Street>Main St</Street>
@@ -43,11 +43,11 @@
       <Street>1st Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <!-- ❌ Error 4: Address element not closed -->
+      <!-- Error 4 -->
   </Hotel>
   <Hotel Rating="4.9">
     <Name>Doubletree</Name>
-    <Name>Marriott</Name> <!-- ❌ Error 5: multiple Name elements -->
+    <Name>Marriott</Name> <!-- Error 5-->
     <Phone>602-123-9876</Phone>
     <Address>
       <Number>350</Number>
