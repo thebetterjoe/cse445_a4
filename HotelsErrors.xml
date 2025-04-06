@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!-- ❌ Error 1: root element should be "Hotels" -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Habor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel> <!-- ❌ Error 2: missing required attribute Rating -->
+    <Name>Hilton</Name>
+    <Phone>480-999-0000</Phone>
+    <Phone>877-888-9999</Phone>
+    <Address>
+      <Number>200</Number>
+      <Street>South Ave</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85250</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.8">
+    <Name>Hyatt</Name>
+    <!-- ❌ Error 3: missing Phone element -->
+    <Address>
+      <Number>50</Number>
+      <Street>Main St</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.7">
+    <Name>Sheraton</Name>
+    <Phone>602-456-7890</Phone>
+    <Address NearestAirport="Mesa Gateway">
+      <Number>75</Number>
+      <Street>1st Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <!-- ❌ Error 4: Address element not closed -->
+  </Hotel>
+  <Hotel Rating="4.9">
+    <Name>Doubletree</Name>
+    <Name>Marriott</Name> <!-- ❌ Error 5: multiple Name elements -->
+    <Phone>602-123-9876</Phone>
+    <Address>
+      <Number>350</Number>
+      <Street>Luxury Blvd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
