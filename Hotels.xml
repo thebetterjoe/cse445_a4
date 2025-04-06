@@ -23,7 +23,7 @@
       <Zip>85001</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.1">
     <Name>Hilton</Name>
     <Phone>480-999-0000</Phone>
     <Address>
@@ -45,7 +45,7 @@
       <Zip>85201</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.0">
     <Name>Sheraton</Name>
     <Phone>602-456-7890</Phone>
     <Address NearestAirport="Mesa Gateway">
@@ -67,7 +67,7 @@
       <Zip>85226</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="3.0">
     <Name>Comfort Inn</Name>
     <Phone>602-765-4321</Phone>
     <Address>
@@ -100,7 +100,7 @@
       <Zip>85284</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="2.8">
     <Name>Travelodge</Name>
     <Phone>480-000-0000</Phone>
     <Address>
