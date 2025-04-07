@@ -11,11 +11,11 @@
                             <xs:element name="Address" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Number" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                                        <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                                        <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                                        <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                                        <xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                        <xs:element name="Number" type="xs:string"/>
+                                        <xs:element name="Street" type="xs:string"/>
+                                        <xs:element name="City" type="xs:string"/>
+                                        <xs:element name="State" type="xs:string"/>
+                                        <xs:element name="Zip" type="xs:string"/>
                                     </xs:sequence>
                                     <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
                                 </xs:complexType>
