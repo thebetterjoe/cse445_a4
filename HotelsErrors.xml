@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel>
+<Hotels>
+    <!-- Sample Hotel -->
     <Hotel Rating="4.2">
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
@@ -12,114 +13,137 @@
             <Zip>85281</Zip>
         </Address>
     </Hotel>
-    <Hotel Rating="4.5">
-        <Name>Hilton Phoenix Resort at the Peak</Name>
-        <Name>Hilton Duplicate</Name>
-        <Phone>602-997-2626</Phone>
-        <Address NearestAirport="Phoenix Sky Harbor">
-            <Number>7677</Number>
-            <Street>N 16th St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85020</Zip>
-        </Address>
-    </Hotel>
-    <Hotel>
-        <Name>Marriott Phoenix Airport</Name>
-        <Phone>602-273-7778</Phone>
-        <Address>
-            <Number>1101</Number>
-            <Street>N 44th St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85008</Zip>
-        </Address>
-    </Hotel>
-    <Hotel Rating="4.3">
-        <Name>Hyatt Regency Scottsdale</Name>
-        <Phone>480-444-1234</Phone>
-        <Address NearestAirport="Scottsdale Airport">
-            <Number>7500</Number>
-            <Street>E Doubletree Ranch Rd</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85258</Zip>
-    </Hotel>
-    <Hotel Rating="4.1">
-        <Name>Sheraton Grand Phoenix</Name>
-        <Phone>602-262-2500</Phone>
-        <Address>
-            <Number>340</Number>
-            <Street>N 3rd St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85004</Zip>
-        </Address>
-    </Hotel>
-    <Hotel Rating="4.6">
-        <Name>The Phoenician</Name>
-        <Phone>480-941-8200</Phone>
-        <Address NearestAirport="Phoenix Sky Harbor">
-            <Number>6000</Number>
-            <Street>E Camelback Rd</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85251</Zip>
-        </Address>
-    </Hotel>
-    <Hotel Rating="3.9">
-        <Name>DoubleTree Suites by Hilton Phoenix</Name>
-        <Phone>602-225-0500</Phone>
-        <Address>
-            <Number>320</Number>
-            <Street>N 44th St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85008</Zip>
-        </Address>
-    </Hotel>
-    <Hotel Rating="4.4">
-        <Name>Renaissance Phoenix Downtown</Name>
-        <Phone>602-333-0000</Phone>
-        <Address NearestAirport="Phoenix Sky Harbor">
-            <Number>100</Number>
-            <Street>N 1st St</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85004</Zip>
-        </Address>
-    </Hotel>
-    <Hotel Rating="4.2">
-        <Name>Embassy Suites by Hilton Scottsdale</Name>
-        <Phone>480-949-1414</Phone>
-        <Address>
-            <Number>5001</Number>
-            <Street>N Scottsdale Rd</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85250</Zip>
-        </Address>
-    </Hotel>
+
+    <!-- Random Hotel 1 -->
     <Hotel Rating="4.0">
-        <Name>Crowne Plaza Phoenix Airport</Name>
-        <Phone>602-286-1100</Phone>
-        <Address NearestAirport="Phoenix Sky Harbor">
-            <Number>4300</Number>
-            <Street>E Washington St</Street>
-            <City>Phoenix</City>
+        <Name>Radisson Hotel Tucson</Name>
+        <Phone>520-624-8711</Phone>
+        <Address NearestAirport="Tucson International">
+            <Number>4550</Number>
+            <Street>S Palo Verde Rd</Street>
+            <City>Tucson</City>
             <State>AZ</State>
-            <Zip>85034</Zip>
+            <Zip>85714</Zip>
         </Address>
     </Hotel>
-    <Hotel Rating="4.3">
-        <Name>Fairmont Scottsdale Princess</Name>
-        <Phone>480-585-4848</Phone>
+
+    <!-- Random Hotel 2 -->
+    <Hotel Rating="3.8">
+        <Name>Hampton Inn Flagstaff</Name>
+        <Phone>928-522-0100</Phone>
+        <Phone>800-426-7866</Phone>
         <Address>
-            <Number>7575</Number>
-            <Street>E Princess Dr</Street>
-            <City>Scottsdale</City>
+            <Number>3501</Number>
+            <Street>E Butler Ave</Street>
+            <City>Flagstaff</City>
             <State>AZ</State>
-            <Zip>85255</Zip>
+            <Zip>86004</Zip>
         </Address>
     </Hotel>
-</Hotel>
+
+    <!-- Random Hotel 3 -->
+    <Hotel Rating="4.5">
+        <Name>Loews Ventana Canyon Resort</Name>
+        <Phone>520-299-2020</Phone>
+        <Address NearestAirport="Tucson International">
+            <Number>7000</Number>
+            <Street>N Resort Dr</Street>
+            <City>Tucson</City>
+            <State>AZ</State>
+            <Zip>85750</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Random Hotel 4 -->
+    <Hotel Rating="3.9">
+        <Name>Holiday Inn Express Sedona</Name>
+        <Phone>928-282-4444</Phone>
+        <Address>
+            <Number>6176</Number>
+            <Street>Highway 179</Street>
+            <City>Sedona</City>
+            <State>AZ</State>
+            <Zip>86351</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Random Hotel 5 -->
+    <Hotel Rating="4.1">
+        <Name>Best Western Inn of Yuma</Name>
+        <Phone>928-783-8341</Phone>
+        <Phone>800-922-8341</Phone>
+        <Address NearestAirport="Yuma International">
+            <Number>1450</Number>
+            <Street>S Castle Dome Ave</Street>
+            <City>Yuma</City>
+            <State>AZ</State>
+            <Zip>85365</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Random Hotel 6 -->
+    <Hotel Rating="4.3">
+        <Name>La Quinta Inn Prescott</Name>
+        <Phone>928-777-0770</Phone>
+        <Address>
+            <Number>4499</Number>
+            <Street>Highway 69</Street>
+            <City>Prescott</City>
+            <State>AZ</State>
+            <Zip>86301</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Random Hotel 7 -->
+    <Hotel Rating="4.2">
+        <Name>Comfort Suites Goodyear</Name>
+        <Phone>623-536-7500</Phone>
+        <Address NearestAirport="Phoenix Goodyear">
+            <Number>15575</Number>
+            <Street>W Roosevelt St</Street>
+            <City>Goodyear</City>
+            <State>AZ</State>
+            <Zip>85338</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Random Hotel 8 -->
+    <Hotel Rating="3.7">
+        <Name>Quality Inn Lake Havasu</Name>
+        <Phone>928-855-1111</Phone>
+        <Phone>800-424-6423</Phone>
+        <Address>
+            <Number>271</Number>
+            <Street>Lake Havasu Ave</Street>
+            <City>Lake Havasu City</City>
+            <State>AZ</State>
+            <Zip>86403</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Random Hotel 9 -->
+    <Hotel Rating="4.4">
+        <Name>Residence Inn Sierra Vista</Name>
+        <Phone>520-458-4448</Phone>
+        <Address NearestAirport="Sierra Vista Municipal">
+            <Number>1850</Number>
+            <Street>E Wilcox Dr</Street>
+            <City>Sierra Vista</City>
+            <State>AZ</State>
+            <Zip>85635</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Random Hotel 10 -->
+    <Hotel Rating="4.0">
+        <Name>SpringHill Suites Chandler</Name>
+        <Phone>480-726-7666</Phone>
+        <Address>
+            <Number>225</Number>
+            <Street>N Metro Blvd</Street>
+            <City>Chandler</City>
+            <State>AZ</State>
+            <Zip>85226</Zip>
+        </Address>
+    </Hotel>
+</Hotels>
